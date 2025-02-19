@@ -12,8 +12,6 @@ module.exports.createUser = async ({
     }
     const user = await userModel.create({
         fullname,
-        lastname,
-        username,
         email,
         password
     });
